@@ -7,4 +7,5 @@ applications:
     random-route: true
     services:
       - mysql-service
+      - config-service
     timeout: 180
