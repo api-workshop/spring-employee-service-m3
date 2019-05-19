@@ -1,0 +1,10 @@
+applications:
+  - buildpacks:
+      - java_buildpack_offline
+    name: spring-employees
+    memory: 2048m
+    path: target/employee-0.0.1-SNAPSHOT.jar
+    random-route: true
+    services:
+      - mysql-service
+    timeout: 180

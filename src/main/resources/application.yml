@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: employees
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update   
+      
+sample:
+  initialize: true
+  firstNames:
+    - Sean
+    - DaShaun
+  lastNames:
+    - Noyes
+    - Carter
+  emails:
+    - snoyes@pivotal.io
+    - dacarter@pivotal.io    
+   
