@@ -6,16 +6,9 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update   
-      
-sample:
-  initialize: true
-  firstNames:
-    - Sean
-    - DaShaun
-  lastNames:
-    - Noyes
-    - Carter
-  emails:
-    - snoyes@pivotal.io
-    - dacarter@pivotal.io    
-   
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
