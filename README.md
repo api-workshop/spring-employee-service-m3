@@ -1,6 +1,10 @@
 # spring-employee-service-m3
 
-Now, lets add PAS client dependencies
+Continuing to build on the same service let's
+
+1. Prime DB with data
+2. [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready.html) to add Prod ready features to help monitor your app
+3. Use Spring Cloud Config Server to pull configutation from Git
 
 ## Add PAS Client Dependencies
 
